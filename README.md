@@ -11,13 +11,20 @@ Evaluating k-nearest neighbors and singular value decomposition techniques for c
 
 ## Files
 
-Aside from `README.md`, the repository contains 1 subdirectory and 4 other files:
+Aside from `README.md`, the repository contains 1 subdirectory and 3 other files:
 
 1. `ml-100k`, the folder which contains the MovieLens 100K dataset
 1. `preprocessing.R`, the R script for validating the data
 1. `movielens.ipynb`, the notebook in which the k-NN and SVD++ algorithms are implemented and compared
-1. `movielens.html`, the exported HTML version of the notebook for viewing it in a web browser
-2. `requirements.txt`, the list of libraries required to run the code in the notebook.
+1. `movielens.html`, the exported HTML version of `movielens.ipynb` for browser-viewing
+
+## Generating recommendations
+
+To generate movie recommendations for a specific user:
+
+1. Run `recommend.py`.
+1. Enter the ID of the user for which you want to produce recommendations.
+1. Enter the number of recommendations.
 
 <br>
 
